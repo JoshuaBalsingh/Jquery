@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <title> FaDe IN</title>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+    
+    $(document).ready(function()
+
+    {
+    $("#click").click(function(){
+    $("#demo1").fadeIn(5000);
+    $("#demo2").fadeIn("fast");
+    $("#demo3").fadeIn(3000);
+    });
+
+    });
+         
+ </script></head>
+
+<body>
+    <p>Different colors fade in method</p>
+    <button id="click">fadeIn</button><br><br><br><br><br><br>
+    <div id="demo1" style="width:80px;height:80px;display:none;background-color:black;"></div><br>  
+    <div id="demo2" style="width:80px;height:80px;display:none;background-color:skyblue;"></div><br>  
+    <div id="demo3" style="width:80px;height:80px;display:none;background-color:yellow;"></div> 
+    </body>
+</html>
