@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <title> Fade TO</title>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+    
+    $(document).ready(function()
+
+    {
+    $("#click").click(function(){
+    $("#demo1").fadeTo("slow",0.3);
+    $("#demo2").fadeTo("slow",0.5);
+    $("#demo3").fadeTo(1000);
+    });
+
+    });
+         
+ </script></head>
+
+<body>
+    <p>Different colors fadeOut method</p>
+    <button id="click">fadeToggle</button><br><br><br><br><br><br>
+    <div id="demo1" style="width:80px;height:80px;display:none;background-color:black;"></div><br>  
+    <div id="demo2" style="width:80px;height:80px;display:none;background-color:skyblue;"></div><br>  
+    <div id="demo3" style="width:80px;height:80px;display:none;background-color:yellow;"></div> 
+    </body>
+</html>
