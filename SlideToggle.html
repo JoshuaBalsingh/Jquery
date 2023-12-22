@@ -1,0 +1,41 @@
+<html>
+    <head>
+    <title>Slide Toggle</title>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+    
+    $(document).ready(function(){
+        $("#first").click(function(){
+        $("#second").slideToggle("slow");
+    })
+    });
+</script>  
+
+
+
+         <Style>
+                #first,#second {
+                padding:5px;
+                text-align: center;
+                background-color: red;
+                border:solid 1px;
+                }
+                #second{
+                    padding: 50px;
+                    display: none;
+                }
+
+
+         </style>
+     </head>
+<body>
+    
+    <p id="first">Click Here  </p>
+    <p id="second">Welcome to the new page. Have a good day. And I hate you.</p>
+
+</body>
+   
+</head>
+</html>
