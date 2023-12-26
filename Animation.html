@@ -1,0 +1,28 @@
+<html>
+    <head>
+    <title> Animation</title>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+    
+    $(document).ready(function()
+
+    {
+    $("#click").click(function(){
+    $("#demo3").animate({left: '500px'})
+    $("#demo2").animate({top: '500px'})
+    });
+
+    });
+         
+ </script></head>
+
+<body>
+    <p>Animation</p>
+    <button id="click">Animation</button><br><br><br><br><br><br> 
+    
+    <div id="demo2" style="width:80px;height:80px;background-color:skyblue;position:absolute;"></div><br><br><br><br><br>   
+    <div id="demo3" style="width:80px;height:80px;background-color:yellow;position:absolute;"></div> 
+    </body>
+</html>
