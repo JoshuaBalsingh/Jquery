@@ -1,0 +1,28 @@
+<html> 
+    <head> <title> Start stop animation</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+        $(document).ready(function(){
+            $("#one").click(function(){
+            $("div").animate({height : 500},3000)
+            $("div").animate({width: 500},3000);
+
+                })
+        
+            $("#two").click(function(){
+                $("div").stop()
+            });
+
+        });
+    </script>
+    </head>
+
+    <body>
+        <button id="one">start animation</button>
+        <button id="two">end animation </button>
+            <div style="background-color:yellow;height:200px;width:250px;"></div>
+
+    </body>
+
+    </html>
